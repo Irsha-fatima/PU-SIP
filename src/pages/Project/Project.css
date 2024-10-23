@@ -1,0 +1,143 @@
+.project-page header{
+  background-image: linear-gradient(rgba(5,10,35,0.75),rgba(5,10,35,0.75)),url(../../utils/images/project-bg.jpg);
+}
+.project{
+  padding-top: 100px;
+  
+}
+header{
+  background-size: cover;
+  background-position: center;
+}
+.height{
+  height: 400px;
+}
+
+/* Styling for like/dislike buttons */
+/* Basic styling for buttons */
+.btn-like-dislike {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-like-dislike.liked svg {
+  fill: #007bff;
+}
+
+.btn-like-dislike.disliked svg {
+  fill: #dc3545;
+}
+
+.like-dislike-count {
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+/* General card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 50px rgba(64, 8, 110, 0.635) ;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+/* Project.css */
+.project-page .btn-like-dislike {
+  border: none;
+  background: none;
+}
+
+.project-page .btn-like-dislike.liked svg {
+  fill: #007bff;
+}
+
+.project-page .btn-like-dislike.disliked svg {
+  fill: #dc3545;
+}
+
+.project-page .like-dislike-count {
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+.card .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* CSS for vertical button layout in Idea Sharing */
+.vertical-buttons {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn-like-dislike {
+margin: 5px 0;
+}
+
+.like-dislike-count {
+display: block;
+margin: 5px 0;
+}
+
+/* CSS for horizontal button layout in Project Sharing */
+.d-flex {
+display: flex;
+align-items: center;
+}
+
+.d-flex .btn-like-dislike {
+margin-right: 10px;
+}
+
+.like-dislike-count {
+margin-left: 5px;
+}
+.project-page {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #007bff; /* Theme color */
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.share-section {
+  background-color: #f8f9fa; /* Light background for sections */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 50px rgba(78, 25, 122, 0.635);;
+}
+
+.card {
+  border: 1px solid #d2b0c6;
+  border-radius: 8px;
+  box-shadow: 0 2px 50px rgba(76, 14, 124, 0.635);;
+
+}
+
+.btn-like-dislike {
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.like-dislike-count {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.card-body {
+  background-color: #deb6cd; /* Background color for cards */
+}
+  
+
